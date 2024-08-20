@@ -44,7 +44,7 @@ body {
 	height: 180px;
 	transform: rotateY(20deg) skew(5deg);
 	transform-style: preserve-3d;
-	background-image: var(--url);
+	background-image:url("/vn.png");
 	background-size: 0; 
 	background-position: -200% -200%; 
 
@@ -94,7 +94,7 @@ body {
     </style>
     <div class='body'>
 <div class="container">
-  <div class="wrapper" style="--url: url('https://flags.fmcdn.net/data/flags/w580/vn.png')">
+  <div class="wrapper">
 	<div class="s s0">
  	<div class="s s1">
  		<div class="s s2">
