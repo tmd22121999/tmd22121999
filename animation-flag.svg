@@ -77,13 +77,15 @@
 		animation-iteration-count: infinite;
 	}
 	
-	@for $i from 1 through 24 {
-		.s#{$i} {
-			background-position-x: #{-$i * 15px};
-			animation-delay: #{$i * 0.08}s;
+	.s1 {
+			background-position-x: -15px;
+			animation-delay: 0.08s;
 		}
-	}
-	
+	    
+	.s0 {
+			background-position-x: 0px;
+			animation-delay: 0s;
+		}
 	@keyframes wave {
 		to {
 			transform: translateZ(0.0001px) rotateY(-14.11deg);
