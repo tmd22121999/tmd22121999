@@ -1,0 +1,211 @@
+<svg fill="none" viewBox="0 0 600 400" width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+  <div xmlns="http://www.w3.org/1999/xhtml">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        color: inherit;
+        text-decoration: none;
+        list-style: none;
+        outline: none;
+        box-sizing: border-box;
+      }
+
+      .body {
+        --color-main: #ff9b71;
+        --color-primary: #ff4444;
+        --color-secondary: #e8e677;
+        --color-background: #0d1117;
+        --color-link: #fef29e;
+        --color-link-active: #ff4444;
+
+        height: 400px;
+        width: 100%;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-image: radial-gradient(var(--color-main), var(--color-primary), var(--color-secondary));
+        animation: border 5s linear infinite;
+        background-size: 200% 200%;
+        background-position: 0 0;
+        border: 24px solid;
+        border-color: var(--color-background);
+      }
+#vietnam{position:relative;background-color:#da251d;width:225px;height:150px}#vietnam .star{display:block;position:absolute;top:56px;left:64px;width:0;height:0;border-right:50px solid transparent;border-bottom:35px solid #ff0;border-left:50px solid transparent;-moz-transform:rotate(36deg) scale(0.9,.9);-webkit-transform:rotate(36deg) scale(0.9,.9);-ms-transform:rotate(36deg) scale(0.9,.9);-o-transform:rotate(36deg) scale(0.9,.9)}#vietnam .star:before{content:'';display:block;position:absolute;top:-23.5px;left:-32.5px;height:0;width:0;border-bottom:40px solid #ff0;border-left:15px solid transparent;border-right:15px solid transparent;-webkit-transform:rotate(-35deg);-moz-transform:rotate(-35deg);-ms-transform:rotate(-35deg);-o-transform:rotate(-35deg)}#vietnam .star:after{content:'';display:block;position:absolute;top:3px;left:-52.5px;width:0;height:0;border-right:50px solid transparent;border-bottom:35px solid #ff0;border-left:50px solid transparent;-webkit-transform:rotate(-72deg);-moz-transform:rotate(-72deg);-ms-transform:rotate(-72deg);-o-transform:rotate(-72deg)}
+    
+body {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Helvetica, 'Helvetica Neue' ,Arial;
+}
+p {
+  color: #bbb;
+}
+
+.ground {
+    background-image: 
+linear-gradient( white 50%, #eee);
+ padding-bottom: 20px;
+}
+
+.flag {
+  position: relative;
+  display: inline-block;
+  margin: 2em 3em 120px;
+	width: 120px;
+	height: 120px;
+	border: 1px solid #bbb;
+  	border-left-color: white;
+  box-sizing: border-box;
+	box-shadow: 2px 5px 14px 0px rgba(0,0,0,0.4);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform-style: preserve3d;
+  -webkit-transform-origin: 0 250px;
+  -webkit-transform: translate3d(0, 0, 0) rotateZ(5deg) rotateY(-22deg);
+
+	-webkit-animation-name: wave;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-timing-function: cubic-bezier(.16,.14,.82,.73);
+  	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+  
+}
+.flag:nth-child(odd) {
+ -webkit-animation-delay: 1s;
+}
+
+.flag:before {
+position: absolute;
+content: "";
+ height: 240px;
+left: -5px;
+top: -3px;
+width: 6px;
+border-right: 1px solid white;
+border-radius: 3px;
+background-color: #444;
+box-shadow: -3px 3px 8px 0px rgba(0,0,0,0.4);
+}
+
+.flag.rect {
+	width: 160px;
+
+}  
+
+.flag-pattern {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;  
+    -webkit-box-reflect: below 60px -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(70%,transparent),to(rgba(255,255,255,0.05)));
+  
+}
+.flag-pattern.jp {
+ background-color: white;
+background-image: 
+radial-gradient(circle, rgb(200,0,0) 40%, transparent 0);
+
+}
+
+.flag-wave {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	background-image:
+		-webkit-gradient(
+			linear,
+			0 -25%,
+			100% top,
+			color-stop(0%,rgba(255,255,255,0)),
+			color-stop(20%,rgba(255,255,255,0)),
+      color-stop(30%,rgba(0,0,0,.04)),
+			color-stop(40%,rgba(255,255,255,.2)),
+      color-stop(60%,rgba(255,255,255,0)),
+    	color-stop(65%,rgba(255,255,255,.2)),
+			color-stop(80%,rgba(0,0,0,.05)),
+			color-stop(100%,rgba(255,255,255,0)));
+
+	background-size: 200%;
+  
+	-webkit-animation-name: flutter;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-timing-function: cubic-bezier(.16,.14,.82,.73);
+	-webkit-animation-iteration-count: infinite;
+}
+
+
+@-webkit-keyframes flutter {
+
+	0% {
+		background-position: -200% 0px;
+	}
+
+  30% {
+		background-position: -60% 5px;
+	}
+  
+   70% {
+		background-position: 70% -5px;
+	}
+  
+	100% {
+		background-position: 200% 0px;
+	}
+}
+
+@-webkit-keyframes wave {
+
+	0% {
+		box-shadow: 4px 5px 5px 0 rgba(0,0,0,0.1);
+        -webkit-transform: translate3d(0, 0, 0) rotateZ(5deg) rotateY(22deg);
+
+	}
+
+	20% {
+		box-shadow: 4px 5px 15px 0 rgba(0,0,0,0.1);
+     -webkit-transform: translate3d(0, 0, 0) rotateZ(5deg) rotateY(0deg);
+	}
+
+  40% {
+		box-shadow: 4px 5px 20px 0 rgba(0,0,0,0.4);
+   -webkit-transform: translate3d(0, 0, 0) rotateZ(6deg) rotateY(-22deg);
+	}
+  
+  	60% {
+		box-shadow: 4px 5px 5px 0 rgba(0,0,0,0.1);
+     -webkit-transform: translate3d(0, 0, 0) rotateZ(5deg) rotateY(0deg);
+	}
+
+  80% {
+		box-shadow: 4px 5px 5px 0 rgba(0,0,0,0.3);
+   -webkit-transform: translate3d(0, 0, 0) rotateZ(5deg) rotateY(16deg);
+	}
+  
+	100% {
+		box-shadow: 4px 5px 5px 0 rgba(0,0,0,0.1);
+   -webkit-transform: translate3d(0, 0, 0) rotateZ(5deg) rotateY(22deg);
+	}
+}
+    </style>
+    <div class='body'>
+      <div class='container'>
+        
+        <div id="vietnam" class="flag">
+        	<div class="star"></div>
+        </div>
+  <div class="flag rect">
+    <div class="flag-pattern jp"></div>
+		<div class="flag-wave"></div>
+	</div>
+      </div>
+    </div>
+  </div>
+  </foreignObject>
+</svg>
