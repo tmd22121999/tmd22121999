@@ -1,0 +1,158 @@
+<svg fill="none" viewBox="0 0 600 400" width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+  <div xmlns="http://www.w3.org/1999/xhtml">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        color: inherit;
+        text-decoration: none;
+        list-style: none;
+        outline: none;
+        box-sizing: border-box;
+      }
+      // inspired by https://codepen.io/YusukeNakaya/pen/qPEZYg
+$n: 24; //slices count
+$width: 15px; //slice width
+$height: $width * $n/2; // 2:1 ratio
+
+*,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+	height: 100vh;
+	background: #eceff1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	perspective: 800px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 700px;
+	transform-style: preserve-3d;
+}
+
+.wrapper {
+	position: relative;
+	width: $n * $width;
+	height: $height;
+	transform: rotateY(20deg) skew(5deg);
+	transform-style: preserve-3d;
+	background-image: var(--url);
+	background-size: 0; // hide image
+	background-position: -200% -200%; // hide image
+
+	// flag stick
+	&::before {
+		content: "";
+		display: block;
+		position: absolute;
+		width: $width/2;
+		height: $height * 4;
+		background: linear-gradient(to left, #fff, #ccc,#fff, #fff);
+		left: ($width - 1px)/2;
+	}
+}
+
+.s {
+	position: absolute;
+	transform-style: preserve-3d;
+	left: $width - 1px; // -1px hides vertical lines
+	width: $width;
+	height: 100%;
+	transform-origin: 0 0;
+	background-repeat: no-repeat;
+	background-size: $n * $width 100%;
+	transform: translateZ(0.0001px) rotateY(#{$n/1.7}deg);
+	//translateZ triggers GPU accelaration for smooth animations
+	background-image: inherit;
+	animation-name: wave;
+	animation-timing-function: ease-in-out;
+	animation-duration: 1s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@for $i from 1 through $n {
+	.s#{$i} {
+		background-position-x: #{-$i * $width};
+		animation-delay: #{$i * 0.08}s;
+	}
+}
+
+@keyframes wave {
+	to {
+		transform: translateZ(0.0001px) rotateY(#{-$n/1.7}deg);
+	}
+}
+
+    </style>
+    <div class='body'>
+<div class="container">
+  <div class="wrapper" style="--url: url(&quot;https://flags.fmcdn.net/data/flags/w580/vn.png&quot;)">
+	<div class="s s0">
+ 	<div class="s s1">
+ 		<div class="s s2">
+ 			<div class="s s3">
+ 				<div class="s s4">
+ 					<div class="s s5">
+ 						<div class="s s6">
+ 							<div class="s s7">
+ 								<div class="s s8">
+ 									<div class="s s9">
+ 										<div class="s s10">
+ 											<div class="s s11">
+ 												<div class="s s12">
+ 													<div class="s s13">
+ 														<div class="s s14">
+ 															<div class="s s15">
+ 																<div class="s s16">
+ 																	<div class="s s17">
+ 																		<div class="s s18">
+ 																			<div class="s s19">
+ 																				<div class="s s20">
+ 																					<div class="s s21">
+ 																						<div class="s s22">
+ 																							<div class="s s23">
+ 																								<div class="s s24">
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+</div>
+</div>
+    </div>
+  </div>
+  </foreignObject>
+</svg>
