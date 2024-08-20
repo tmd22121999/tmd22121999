@@ -22,3 +22,8 @@ $\color{red}██████████████████████�
     <img src="/flag.svg" style="width: 100%;" alt="Click to see the source">
   </a>
 </div>
+<div style="width: 100%;">
+  <a href="/animation-flag.svg">
+    <img src="/animation-flag.svg" style="width: 100%;" alt="Click to see the source">
+  </a>
+</div>
