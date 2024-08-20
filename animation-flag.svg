@@ -40,7 +40,7 @@
 	
 	.wrapper {
 		position: relative;
-		width: 24 * 15px;
+		width: 360px;
 		height: 180px;
 		transform: rotateY(20deg) skew(5deg);
 		transform-style: preserve-3d;
@@ -49,14 +49,14 @@
 		background-position: -200% -200%; 
 	
 	}
-	wrapper::before {
+	.wrapper::before {
 			content: "";
 			display: block;
 			position: absolute;
-			width: 15px/2;
+			width: 7.5px;
 			height: 720px;
 			background: linear-gradient(to left, #fff, #ccc,#fff, #fff);
-			left: (15px - 1px)/2;
+			left: 7px;
 		}
 	
 	.s {
@@ -67,7 +67,7 @@
 		height: 100%;
 		transform-origin: 0 0;
 		background-repeat: no-repeat;
-		background-size: 24 * 15px 100%;
+		background-size: 360px 100%;
 		transform: translateZ(0.0001px) rotateY(14.11deg);
 		background-image: inherit;
 		animation-name: wave;
