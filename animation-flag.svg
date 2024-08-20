@@ -62,7 +62,7 @@
 	.s {
 		position: absolute;
 		transform-style: preserve-3d;
-		left: 15px - 1px; 
+		left: 14px; 
 		width: 15px;
 		height: 100%;
 		transform-origin: 0 0;
@@ -93,7 +93,7 @@
 	}
     </style>
 <div class="container">
-	<div class="wrapper" style="--url: url(&quot;https://flags.fmcdn.net/data/flags/w580/vn.png&quot;)">
+	<div class="wrapper" style="--url: url(/tmd22121999/tmd22121999/raw/main/flag.svg)">
 		<div class="s s0">
 			<div class="s s1">
 				<div class="s s2">
