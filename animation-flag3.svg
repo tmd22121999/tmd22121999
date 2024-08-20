@@ -1,0 +1,226 @@
+<svg fill="none" viewBox="0 0 400 300" width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+  <div xmlns="http://www.w3.org/1999/xhtml">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        color: inherit;
+        text-decoration: none;
+        list-style: none;
+        outline: none;
+        box-sizing: border-box;
+      }
+.flag {
+    width:300px;
+    height:200px;
+    margin:50px;
+    font-size:0px;
+}
+.flag-element {
+    -webkit-animation:oscill 1s ease-in-out infinite alternate; 
+    -moz-animation:oscill 1s ease-in-out infinite alternate; 
+    -ms-animation:oscill 1s ease-in-out infinite alternate; 
+    animation:oscill 1s ease-in-out infinite alternate; 
+    background: url('http://i.imgur.com/8VSL8Ve.gif');
+    background-size: 300px 100%;
+    position:relative;
+    height:100%;
+    width:1px;
+    display:inline-block;
+    box-shadow:0 1px grey, 0 -1px gray;
+    background-position: calc(1px - var(--pos) * 2) 0;
+    -webkit-animation-delay: calc(var(--tim) * 10);
+    -moz-animation-delay: calc(var(--tim) * 10);
+    -ms-animation-delay: calc(var(--tim) * 10);
+    animation-delay: calc(var(--tim) * 10);
+}
+@-webkit-keyframes oscill {
+    0% {
+        top: 10%;
+    }        
+    100% {
+        top: -10%;
+    }
+}
+@-moz-keyframes oscill {
+    0% {
+        top: 10%;
+    }        
+    100% {
+        top: -10%;
+    }
+}
+@-ms-keyframes oscill {
+    0% {
+        top: 10%;
+    }        
+    100% {
+        top: -10%;
+    }
+}
+@keyframes oscill {
+    0% {
+        top: 10%;
+    }        
+    100% {
+        top: -10%;
+    }
+}
+    </style>
+        
+  <div class='flag'>
+<div class='flag-element' style="--pos: 1px;--tim: 1ms"></div>
+<div class='flag-element' style="--pos: 2px;--tim: 2ms"></div>
+<div class='flag-element' style="--pos: 3px;--tim: 3ms"></div>
+<div class='flag-element' style="--pos: 4px;--tim: 4ms"></div>
+<div class='flag-element' style="--pos: 5px;--tim: 5ms"></div>
+<div class='flag-element' style="--pos: 6px;--tim: 6ms"></div>
+<div class='flag-element' style="--pos: 7px;--tim: 7ms"></div>
+<div class='flag-element' style="--pos: 8px;--tim: 8ms"></div>
+<div class='flag-element' style="--pos: 9px;--tim: 9ms"></div>
+<div class='flag-element' style="--pos: 10px;--tim: 10ms"></div>
+<div class='flag-element' style="--pos: 11px;--tim: 11ms"></div>
+<div class='flag-element' style="--pos: 12px;--tim: 12ms"></div>
+<div class='flag-element' style="--pos: 13px;--tim: 13ms"></div>
+<div class='flag-element' style="--pos: 14px;--tim: 14ms"></div>
+<div class='flag-element' style="--pos: 15px;--tim: 15ms"></div>
+<div class='flag-element' style="--pos: 16px;--tim: 16ms"></div>
+<div class='flag-element' style="--pos: 17px;--tim: 17ms"></div>
+<div class='flag-element' style="--pos: 18px;--tim: 18ms"></div>
+<div class='flag-element' style="--pos: 19px;--tim: 19ms"></div>
+<div class='flag-element' style="--pos: 20px;--tim: 20ms"></div>
+<div class='flag-element' style="--pos: 21px;--tim: 21ms"></div>
+<div class='flag-element' style="--pos: 22px;--tim: 22ms"></div>
+<div class='flag-element' style="--pos: 23px;--tim: 23ms"></div>
+<div class='flag-element' style="--pos: 24px;--tim: 24ms"></div>
+<div class='flag-element' style="--pos: 25px;--tim: 25ms"></div>
+<div class='flag-element' style="--pos: 26px;--tim: 26ms"></div>
+<div class='flag-element' style="--pos: 27px;--tim: 27ms"></div>
+<div class='flag-element' style="--pos: 28px;--tim: 28ms"></div>
+<div class='flag-element' style="--pos: 29px;--tim: 29ms"></div>
+<div class='flag-element' style="--pos: 30px;--tim: 30ms"></div>
+<div class='flag-element' style="--pos: 31px;--tim: 31ms"></div>
+<div class='flag-element' style="--pos: 32px;--tim: 32ms"></div>
+<div class='flag-element' style="--pos: 33px;--tim: 33ms"></div>
+<div class='flag-element' style="--pos: 34px;--tim: 34ms"></div>
+<div class='flag-element' style="--pos: 35px;--tim: 35ms"></div>
+<div class='flag-element' style="--pos: 36px;--tim: 36ms"></div>
+<div class='flag-element' style="--pos: 37px;--tim: 37ms"></div>
+<div class='flag-element' style="--pos: 38px;--tim: 38ms"></div>
+<div class='flag-element' style="--pos: 39px;--tim: 39ms"></div>
+<div class='flag-element' style="--pos: 40px;--tim: 40ms"></div>
+<div class='flag-element' style="--pos: 41px;--tim: 41ms"></div>
+<div class='flag-element' style="--pos: 42px;--tim: 42ms"></div>
+<div class='flag-element' style="--pos: 43px;--tim: 43ms"></div>
+<div class='flag-element' style="--pos: 44px;--tim: 44ms"></div>
+<div class='flag-element' style="--pos: 45px;--tim: 45ms"></div>
+<div class='flag-element' style="--pos: 46px;--tim: 46ms"></div>
+<div class='flag-element' style="--pos: 47px;--tim: 47ms"></div>
+<div class='flag-element' style="--pos: 48px;--tim: 48ms"></div>
+<div class='flag-element' style="--pos: 49px;--tim: 49ms"></div>
+<div class='flag-element' style="--pos: 50px;--tim: 50ms"></div>
+<div class='flag-element' style="--pos: 51px;--tim: 51ms"></div>
+<div class='flag-element' style="--pos: 52px;--tim: 52ms"></div>
+<div class='flag-element' style="--pos: 53px;--tim: 53ms"></div>
+<div class='flag-element' style="--pos: 54px;--tim: 54ms"></div>
+<div class='flag-element' style="--pos: 55px;--tim: 55ms"></div>
+<div class='flag-element' style="--pos: 56px;--tim: 56ms"></div>
+<div class='flag-element' style="--pos: 57px;--tim: 57ms"></div>
+<div class='flag-element' style="--pos: 58px;--tim: 58ms"></div>
+<div class='flag-element' style="--pos: 59px;--tim: 59ms"></div>
+<div class='flag-element' style="--pos: 60px;--tim: 60ms"></div>
+<div class='flag-element' style="--pos: 61px;--tim: 61ms"></div>
+<div class='flag-element' style="--pos: 62px;--tim: 62ms"></div>
+<div class='flag-element' style="--pos: 63px;--tim: 63ms"></div>
+<div class='flag-element' style="--pos: 64px;--tim: 64ms"></div>
+<div class='flag-element' style="--pos: 65px;--tim: 65ms"></div>
+<div class='flag-element' style="--pos: 66px;--tim: 66ms"></div>
+<div class='flag-element' style="--pos: 67px;--tim: 67ms"></div>
+<div class='flag-element' style="--pos: 68px;--tim: 68ms"></div>
+<div class='flag-element' style="--pos: 69px;--tim: 69ms"></div>
+<div class='flag-element' style="--pos: 70px;--tim: 70ms"></div>
+<div class='flag-element' style="--pos: 71px;--tim: 71ms"></div>
+<div class='flag-element' style="--pos: 72px;--tim: 72ms"></div>
+<div class='flag-element' style="--pos: 73px;--tim: 73ms"></div>
+<div class='flag-element' style="--pos: 74px;--tim: 74ms"></div>
+<div class='flag-element' style="--pos: 75px;--tim: 75ms"></div>
+<div class='flag-element' style="--pos: 76px;--tim: 76ms"></div>
+<div class='flag-element' style="--pos: 77px;--tim: 77ms"></div>
+<div class='flag-element' style="--pos: 78px;--tim: 78ms"></div>
+<div class='flag-element' style="--pos: 79px;--tim: 79ms"></div>
+<div class='flag-element' style="--pos: 80px;--tim: 80ms"></div>
+<div class='flag-element' style="--pos: 81px;--tim: 81ms"></div>
+<div class='flag-element' style="--pos: 82px;--tim: 82ms"></div>
+<div class='flag-element' style="--pos: 83px;--tim: 83ms"></div>
+<div class='flag-element' style="--pos: 84px;--tim: 84ms"></div>
+<div class='flag-element' style="--pos: 85px;--tim: 85ms"></div>
+<div class='flag-element' style="--pos: 86px;--tim: 86ms"></div>
+<div class='flag-element' style="--pos: 87px;--tim: 87ms"></div>
+<div class='flag-element' style="--pos: 88px;--tim: 88ms"></div>
+<div class='flag-element' style="--pos: 89px;--tim: 89ms"></div>
+<div class='flag-element' style="--pos: 90px;--tim: 90ms"></div>
+<div class='flag-element' style="--pos: 91px;--tim: 91ms"></div>
+<div class='flag-element' style="--pos: 92px;--tim: 92ms"></div>
+<div class='flag-element' style="--pos: 93px;--tim: 93ms"></div>
+<div class='flag-element' style="--pos: 94px;--tim: 94ms"></div>
+<div class='flag-element' style="--pos: 95px;--tim: 95ms"></div>
+<div class='flag-element' style="--pos: 96px;--tim: 96ms"></div>
+<div class='flag-element' style="--pos: 97px;--tim: 97ms"></div>
+<div class='flag-element' style="--pos: 98px;--tim: 98ms"></div>
+<div class='flag-element' style="--pos: 99px;--tim: 99ms"></div>
+<div class='flag-element' style="--pos: 100px;--tim: 100ms"></div>
+<div class='flag-element' style="--pos: 101px;--tim: 101ms"></div>
+<div class='flag-element' style="--pos: 102px;--tim: 102ms"></div>
+<div class='flag-element' style="--pos: 103px;--tim: 103ms"></div>
+<div class='flag-element' style="--pos: 104px;--tim: 104ms"></div>
+<div class='flag-element' style="--pos: 105px;--tim: 105ms"></div>
+<div class='flag-element' style="--pos: 106px;--tim: 106ms"></div>
+<div class='flag-element' style="--pos: 107px;--tim: 107ms"></div>
+<div class='flag-element' style="--pos: 108px;--tim: 108ms"></div>
+<div class='flag-element' style="--pos: 109px;--tim: 109ms"></div>
+<div class='flag-element' style="--pos: 110px;--tim: 110ms"></div>
+<div class='flag-element' style="--pos: 111px;--tim: 111ms"></div>
+<div class='flag-element' style="--pos: 112px;--tim: 112ms"></div>
+<div class='flag-element' style="--pos: 113px;--tim: 113ms"></div>
+<div class='flag-element' style="--pos: 114px;--tim: 114ms"></div>
+<div class='flag-element' style="--pos: 115px;--tim: 115ms"></div>
+<div class='flag-element' style="--pos: 116px;--tim: 116ms"></div>
+<div class='flag-element' style="--pos: 117px;--tim: 117ms"></div>
+<div class='flag-element' style="--pos: 118px;--tim: 118ms"></div>
+<div class='flag-element' style="--pos: 119px;--tim: 119ms"></div>
+<div class='flag-element' style="--pos: 120px;--tim: 120ms"></div>
+<div class='flag-element' style="--pos: 121px;--tim: 121ms"></div>
+<div class='flag-element' style="--pos: 122px;--tim: 122ms"></div>
+<div class='flag-element' style="--pos: 123px;--tim: 123ms"></div>
+<div class='flag-element' style="--pos: 124px;--tim: 124ms"></div>
+<div class='flag-element' style="--pos: 125px;--tim: 125ms"></div>
+<div class='flag-element' style="--pos: 126px;--tim: 126ms"></div>
+<div class='flag-element' style="--pos: 127px;--tim: 127ms"></div>
+<div class='flag-element' style="--pos: 128px;--tim: 128ms"></div>
+<div class='flag-element' style="--pos: 129px;--tim: 129ms"></div>
+<div class='flag-element' style="--pos: 130px;--tim: 130ms"></div>
+<div class='flag-element' style="--pos: 131px;--tim: 131ms"></div>
+<div class='flag-element' style="--pos: 132px;--tim: 132ms"></div>
+<div class='flag-element' style="--pos: 133px;--tim: 133ms"></div>
+<div class='flag-element' style="--pos: 134px;--tim: 134ms"></div>
+<div class='flag-element' style="--pos: 135px;--tim: 135ms"></div>
+<div class='flag-element' style="--pos: 136px;--tim: 136ms"></div>
+<div class='flag-element' style="--pos: 137px;--tim: 137ms"></div>
+<div class='flag-element' style="--pos: 138px;--tim: 138ms"></div>
+<div class='flag-element' style="--pos: 139px;--tim: 139ms"></div>
+<div class='flag-element' style="--pos: 140px;--tim: 140ms"></div>
+<div class='flag-element' style="--pos: 141px;--tim: 141ms"></div>
+<div class='flag-element' style="--pos: 142px;--tim: 142ms"></div>
+<div class='flag-element' style="--pos: 143px;--tim: 143ms"></div>
+<div class='flag-element' style="--pos: 144px;--tim: 144ms"></div>
+<div class='flag-element' style="--pos: 145px;--tim: 145ms"></div>
+<div class='flag-element' style="--pos: 146px;--tim: 146ms"></div>
+<div class='flag-element' style="--pos: 147px;--tim: 147ms"></div>
+<div class='flag-element' style="--pos: 148px;--tim: 148ms"></div>
+<div class='flag-element' style="--pos: 149px;--tim: 149ms"></div>
+<div class='flag-element' style="--pos: 150px;--tim: 150ms"></div>
+</div>
+  </div>
+  </foreignObject>
+</svg>
