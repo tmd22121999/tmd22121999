@@ -44,7 +44,7 @@
 		height: 180px;
 		transform: rotateY(20deg) skew(5deg);
 		transform-style: preserve-3d;
-		background-image:var(--url);
+		background-image:url("/tmd22121999/tmd22121999/main/vn.png");
 		background-size: 0; 
 		background-position: -200% -200%; 
 	
@@ -69,7 +69,7 @@
 		background-repeat: no-repeat;
 		background-size: 360px 100%;
 		transform: translateZ(0.0001px) rotateY(14.11deg);
-		background-image: inherit;
+		background-image: url("/tmd22121999/tmd22121999/main/vn.png");
 		animation-name: wave;
 		animation-timing-function: ease-in-out;
 		animation-duration: 1s;
