@@ -22,7 +22,7 @@
     -moz-animation:oscill 1s ease-in-out infinite alternate; 
     -ms-animation:oscill 1s ease-in-out infinite alternate; 
     animation:oscill 1s ease-in-out infinite alternate; 
-    background: url('http://i.imgur.com/8VSL8Ve.gif');
+    background: url('https://raw.githubusercontent.com/tmd22121999/tmd22121999/main/vn.png');
     background-size: 300px 100%;
     position:relative;
     height:100%;
