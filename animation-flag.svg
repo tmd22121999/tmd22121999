@@ -12,114 +12,113 @@
         box-sizing: border-box;
       }
 
-*,
-*::before {
-	margin: 0;
-	padding: 0;
-	box-sizing: inherit;
-}
-
-body {
-	height: 100vh;
-	background: #eceff1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	perspective: 800px;
-	overflow: hidden;
-	box-sizing: border-box;
-}
-
-.container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	max-width: 700px;
-	transform-style: preserve-3d;
-}
-
-.wrapper {
-	position: relative;
-	width: 24 * 15px;
-	height: 180px;
-	transform: rotateY(20deg) skew(5deg);
-	transform-style: preserve-3d;
-	background-image:url("/vn.png");
-	background-size: 0; 
-	background-position: -200% -200%; 
-
-	&::before {
-		content: "";
-		display: block;
+	*,
+	*::before {
+		margin: 0;
+		padding: 0;
+		box-sizing: inherit;
+	}
+	
+	body {
+		height: 100vh;
+		background: #eceff1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		perspective: 800px;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
+	
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 700px;
+		transform-style: preserve-3d;
+	}
+	
+	.wrapper {
+		position: relative;
+		width: 24 * 15px;
+		height: 180px;
+		transform: rotateY(20deg) skew(5deg);
+		transform-style: preserve-3d;
+		background-image:url("/vn.png");
+		background-size: 0; 
+		background-position: -200% -200%; 
+	
+	}
+	wrapper::before {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 15px/2;
+			height: 720px;
+			background: linear-gradient(to left, #fff, #ccc,#fff, #fff);
+			left: (15px - 1px)/2;
+		}
+	
+	.s {
 		position: absolute;
-		width: 15px/2;
-		height: 720px;
-		background: linear-gradient(to left, #fff, #ccc,#fff, #fff);
-		left: (15px - 1px)/2;
+		transform-style: preserve-3d;
+		left: 15px - 1px; 
+		width: 15px;
+		height: 100%;
+		transform-origin: 0 0;
+		background-repeat: no-repeat;
+		background-size: 24 * 15px 100%;
+		transform: translateZ(0.0001px) rotateY(14.11deg);
+		background-image: inherit;
+		animation-name: wave;
+		animation-timing-function: ease-in-out;
+		animation-duration: 1s;
+		animation-direction: alternate;
+		animation-iteration-count: infinite;
 	}
-}
-
-.s {
-	position: absolute;
-	transform-style: preserve-3d;
-	left: 15px - 1px; 
-	width: 15px;
-	height: 100%;
-	transform-origin: 0 0;
-	background-repeat: no-repeat;
-	background-size: 24 * 15px 100%;
-	transform: translateZ(0.0001px) rotateY(14.11deg);
-	background-image: inherit;
-	animation-name: wave;
-	animation-timing-function: ease-in-out;
-	animation-duration: 1s;
-	animation-direction: alternate;
-	animation-iteration-count: infinite;
-}
-
-@for $i from 1 through 24 {
-	.s#{$i} {
-		background-position-x: #{-$i * 15px};
-		animation-delay: #{$i * 0.08}s;
+	
+	@for $i from 1 through 24 {
+		.s#{$i} {
+			background-position-x: #{-$i * 15px};
+			animation-delay: #{$i * 0.08}s;
+		}
 	}
-}
-
-@keyframes wave {
-	to {
-		transform: translateZ(0.0001px) rotateY(-14.11deg);
+	
+	@keyframes wave {
+		to {
+			transform: translateZ(0.0001px) rotateY(-14.11deg);
+		}
 	}
-}
-
-
     </style>
-    <div class='body'>
 <div class="container">
-  <div class="wrapper">
-	<div class="s s0">
- 	<div class="s s1">
- 		<div class="s s2">
- 			<div class="s s3">
- 				<div class="s s4">
- 					<div class="s s5">
- 						<div class="s s6">
- 							<div class="s s7">
- 								<div class="s s8">
- 									<div class="s s9">
- 										<div class="s s10">
- 											<div class="s s11">
- 												<div class="s s12">
- 													<div class="s s13">
- 														<div class="s s14">
- 															<div class="s s15">
- 																<div class="s s16">
- 																	<div class="s s17">
- 																		<div class="s s18">
- 																			<div class="s s19">
- 																				<div class="s s20">
- 																					<div class="s s21">
- 																						<div class="s s22">
- 																							<div class="s s23">
- 																								<div class="s s24">
+	<div class="wrapper" style="--url: url(&quot;https://flags.fmcdn.net/data/flags/w580/vn.png&quot;)">
+		<div class="s s0">
+			<div class="s s1">
+				<div class="s s2">
+					<div class="s s3">
+						<div class="s s4">
+							<div class="s s5">
+								<div class="s s6">
+									<div class="s s7">
+										<div class="s s8">
+											<div class="s s9">
+												<div class="s s10">
+													<div class="s s11">
+														<div class="s s12">
+															<div class="s s13">
+																<div class="s s14">
+																	<div class="s s15">
+																		<div class="s s16">
+																			<div class="s s17">
+																				<div class="s s18">
+																					<div class="s s19">
+																						<div class="s s20">
+																							<div class="s s21">
+																								<div class="s s22">
+																									<div class="s s23">
+																										<div class="s s24">
+																										</div>
+																									</div>
 																								</div>
 																							</div>
 																						</div>
@@ -142,12 +141,9 @@ body {
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>	
 	</div>
-</div>	
 </div>
-</div>
-    </div>
   </div>
   </foreignObject>
 </svg>
