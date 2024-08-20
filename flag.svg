@@ -1,0 +1,49 @@
+<svg fill="none" viewBox="0 0 600 400" width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+  <div xmlns="http://www.w3.org/1999/xhtml">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        color: inherit;
+        text-decoration: none;
+        list-style: none;
+        outline: none;
+        box-sizing: border-box;
+      }
+
+      .body {
+        --color-main: #ff9b71;
+        --color-primary: #ff4444;
+        --color-secondary: #e8e677;
+        --color-background: #0d1117;
+        --color-link: #fef29e;
+        --color-link-active: #ff4444;
+
+        height: 400px;
+        width: 100%;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-image: radial-gradient(var(--color-main), var(--color-primary), var(--color-secondary));
+        animation: border 5s linear infinite;
+        background-size: 200% 200%;
+        background-position: 0 0;
+        border: 24px solid;
+        border-color: var(--color-background);
+      }
+#vietnam{position:relative;background-color:#da251d;width:225px;height:150px}#vietnam .star{display:block;position:absolute;top:56px;left:64px;width:0;height:0;border-right:50px solid transparent;border-bottom:35px solid #ff0;border-left:50px solid transparent;-moz-transform:rotate(36deg) scale(0.9,.9);-webkit-transform:rotate(36deg) scale(0.9,.9);-ms-transform:rotate(36deg) scale(0.9,.9);-o-transform:rotate(36deg) scale(0.9,.9)}#vietnam .star:before{content:'';display:block;position:absolute;top:-23.5px;left:-32.5px;height:0;width:0;border-bottom:40px solid #ff0;border-left:15px solid transparent;border-right:15px solid transparent;-webkit-transform:rotate(-35deg);-moz-transform:rotate(-35deg);-ms-transform:rotate(-35deg);-o-transform:rotate(-35deg)}#vietnam .star:after{content:'';display:block;position:absolute;top:3px;left:-52.5px;width:0;height:0;border-right:50px solid transparent;border-bottom:35px solid #ff0;border-left:50px solid transparent;-webkit-transform:rotate(-72deg);-moz-transform:rotate(-72deg);-ms-transform:rotate(-72deg);-o-transform:rotate(-72deg)}
+    </style>
+    <div class='body'>
+      <div class='container'>
+        
+        <div id="vietnam" class="flag">
+        	<div class="star"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </foreignObject>
+</svg>
