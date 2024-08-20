@@ -99,7 +99,7 @@ body {
     </style>
     <div class='body'>
 <div class="container">
-  <div class="wrapper" style="--url: url(&quot;https://flags.fmcdn.net/data/flags/w580/vn.png&quot;)">
+  <div class="wrapper" style="--url: url('https://flags.fmcdn.net/data/flags/w580/vn.png')">
 	<div class="s s0">
  	<div class="s s1">
  		<div class="s s2">
